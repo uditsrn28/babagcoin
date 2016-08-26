@@ -29,7 +29,7 @@ module.exports = {
                 db.close();
             } catch (e) {
                 console.log(e);
-                reject()
+                resolve(false)
             }
         });
     }
